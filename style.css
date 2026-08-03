@@ -1,0 +1,145 @@
+body{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+
+header{
+    background-color: #60d3f3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   /* កំណត់​ Menu  នៅនឹង */
+   position: sticky;
+   top: 0px;
+}
+a:link.x_mn a:visited.x_mn{
+    color: rgb(2, 192, 103);
+    background-color: #08d646;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    margin: 0px;
+    font-size: 18px;
+}
+a:hover.x_mn,a:active.x_mn{
+    background-color: #34ff67;
+    margin: 0px;
+    padding: 20px;
+   border-radius: 1rem;
+  
+    
+}
+div.news_frame{
+    position: static;
+    margin: 5px;
+    padding: 5px;
+    /* hight: auto; */
+    width: 375px;
+    float: left;
+    text-align: center;
+    border: 1px solid #1cb9b9;
+    min-height: 420px;
+}
+div.news_frame img{
+    /* កំណត់ទំហំរូបភាព */
+    margin: 5px;
+    width: 350px;
+    border: 1px solid #d71111;
+}
+div.news_frame a:hover img{
+    opacity: 0.8;
+}
+div.news_frame div.news_title{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 5px;
+    width: auto;
+    font-weight: normal;
+    text-align: left;
+}
+div.news_frame div.short_description{
+    margin: 5px;
+    width: auto;
+    font-weight: normal;
+    text-align: justify;
+}
+div.title{
+    color: #1fff32;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 5px;
+}
+footer {
+    color: #ffffff;
+    background-color: #40acd3;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-family: times new roman;
+    font-size: 18px;
+    Clear: left;
+    align-items: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px;
+    font-family: verdana, geneva, tahoma, sans-serif;
+    font-size: 30px;
+    color: #000000;
+  
+}
+div#title{
+    margin: 5px;
+    font-family: times new roman;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contact-item {
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+    padding-left: 15px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.contact-item:hover {
+    transform: translateX(10px);
+    border-left: 4px solid #99cc33;
+    background-color: #f8f9fa;
+    border-radius: 0 8px 8px 0;
+}
+div.CollaborationFrame{
+    position: static;
+    margin: 5px;
+    padding: 5px;
+    /* hight: auto; */
+    height: auto;
+    width: 275px;
+    float: left;
+    text-align: center;
+    border: 1px solid;
+    min-height: 280px;
+}
+
+div.CollaborationFrame img{
+    /* កំណត់ទំហំរូបភាព */
+    margin: 5px;
+    width: 265px;
+    
+}
+
+div.CollaborationFrame a:hover img{
+    opacity: 0.6;
+}
+.title{
+    font-size: 10px;
+    background-color: rgb(253, 255, 255);
+    color: rgb(249, 249, 249);
+}
